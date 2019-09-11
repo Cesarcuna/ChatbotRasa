@@ -1,0 +1,62 @@
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- mood_good
+- minimum_wage
+- yess
+- noo
+- file_a_wage
+- wage_theft
+templates:
+  utter_greet:
+  - text: Hey! How are you?
+  utter_happy:
+  - text: Great carry on!
+  utter_file_a_wage:
+  - text: Click [here](https://www.dir.ca.gov/dlse/HowToFileWageClaim.htm) to learn the process of filing a wage claim.
+  utter_goodbye:
+  - text: goodbye
+  - text: bye bye
+  utter_master:
+  - text: He's the master
+  utter_wage_theft:
+  - text: Wage theft covers infractions that occur when workers do not receive their legally or contractually promised wages. Do you want to know more?
+  utter_wage_theft_af:
+  - text: Have you experienced at least one of these situations? no overtime payment, no last paycheck after leaving your job, no payment for all the hours worked, no pay at all?
+  utter_wage_theft_af_af:
+  - text: You may be a victim of wage theft. Click [here](https://www.dir.ca.gov/dlse/HowToFileWageClaim.htm) to learn the process of filing a wage claim.
+  utter_wage_theft_de:
+  - text: Do you want assistance with anything else?
+  utter_minimum_wage:
+  - text: Do you work in a company with less than 26 employees?
+  utter_minimum_wage_af:
+  - text: For a company with 25 employees or less the minimum wage is $12.00/hour
+  utter_minimum_wage_de:
+  - text: For a company with 26 employees or more the minimum wage is $12.00/hour
+  utter_ok:
+  - text: ok!
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Did that help you?
+actions:
+- utter_wage_theft_af_af
+- utter_wage_theft_af
+- utter_wage_theft_de
+- utter_wage_theft
+- utter_file_a_wage
+- utter_greet
+- utter_ok
+- utter_happy
+- utter_goodbye
+- utter_master
+- utter_minimum_wage
+- utter_minimum_wage_af
+- utter_minimum_wage_de
+- utter_cheer_up
+- utter_did_that_help
